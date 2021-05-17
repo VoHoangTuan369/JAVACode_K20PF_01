@@ -1,4 +1,6 @@
-package com.company;
+package SS4;
+
+import com.company.Employees;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -6,8 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-public class Main {
-
+public class TestFile {
     public static void main(String[] args) {
         ArrayList<Employees> ar = new ArrayList<>();
         ar.add(new Employees("E005","Nguyen A","211"));
@@ -29,4 +30,3 @@ public class Main {
 
     }
 }
-
